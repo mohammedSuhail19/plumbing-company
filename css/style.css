@@ -85,23 +85,28 @@
     width: 220px;
     height: 160px;
     margin: 20px 0 0 0;
+    transition-duration: 1s;
     
 }
+.one-ser:hover  {
+    transform: scale(1.2);
+ }
 
 
-.tow-ser{
-
+.tow-ser  {
     box-shadow: 1px -1px 4px 1px;
     padding: 30px 20px;
-    width: 240px;
-    height: 200px;
-    background-color: var(--blueColor);
+    width: 220px;
+    height: 160px;
+    margin: 20px 0 0 0;
+    background-color:  var(--blueColor);
     color: #fff;
-
+    transition-duration: 2s;
 
 }
-
-
+ .tow-ser:hover  {
+    transform: scale(1.2);
+ }
 .tow-ser h2{
 
     text-align: center;
