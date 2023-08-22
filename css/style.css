@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --blueColor: #1b1f59;
+}
+#hero{
+    background-image: url(../img/imf4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: right;
+    position: relative;
+}
+.inf{
+    border-radius: 5px;
+    padding: 30px;
+    padding-right: 40px;
+    position: absolute;
+    background-color: var(--blueColor);
+    top: 150px;
+    left: 600px;
+    width: 220px;
+    height: 250px;
+}
+
+.inf h1{
+    font-size: 40px;
+    color: white;
+}
+
+.inf h2{
+    font-weight: normal;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.inf ul li{
+    margin-right: 13px;
+    color: white;
+}
+.inf button{
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: var(--blueColor);
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 170px;
+    height: 40px;
+}
+
+.inf button a{
+    transition-duration: 0.4s;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.inf button i{
+    padding-left: 7px;
+}
+/* Section Service*/
+#service {
+    width: 100%;
+    height: 150vh;
+    text-align: center;
+    position: relative;
+
+
+}
+.all-ser {
+    position: absolute;
+    display: flex;
+    /* justify-content: space-around; */
+    width: 65%;
+    height: 300px;
+    text-align: center;
+    top: 100px;
+    right: 380px;
+}
+.one-ser{
+    box-shadow: 1px -1px 4px 1px;
+    padding: 30px 20px;
+    width: 220px;
+    height: 160px;
+    margin: 20px 0 0 0;
+    
+}
+
+
+.tow-ser{
+
+    box-shadow: 1px -1px 4px 1px;
+    padding: 30px 20px;
+    width: 240px;
+    height: 200px;
+    background-color: var(--blueColor);
+    color: #fff;
+
+
+}
+
+
+.tow-ser h2{
+
+    text-align: center;
+    color: #0072ff;
+    margin-bottom: 20px;
+}
+
+
+
+.one-ser h2{
+    text-align: center;
+    color: #0072ff;
+    margin-bottom: 20px;
+}
+.one-ser p{
+    line-height: 25px;
+    color: rgb(80, 77, 77);
+}
+
+.name-ser h2{
+    width: 100%;
+    margin-top: -30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.about {
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 600px;
+
+}
+.one-about {
+    padding: 20px;
+    background-color: var(--blueColor);
+    width: 25%;
+    height: 200px;
+}
+.one-about .opa-hos i{
+    opacity: 0.4;
+    margin:-21px 280px 0 0;
+}
+.one-about i{
+    color: #0072ff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.one-about h2{
+    color: #fff;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+}
+.one-about p{
+    line-height: 30px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+}
+/* Section Contact*/
+#contact{
+    width: 100%;
+    height: 50vh;
+    text-align: right;
+
+}
+
+
+#contact h2{
+    margin-bottom: 10px;
+    color: #0072ff;
+    font-size: 35px;
+}
+
+
+.cont {
+    border-left: 1px solid #bdb7b7;
+    margin: 10px 100px 100px 10px;
+}
+
+
+.cont p{
+    margin-bottom: 20px;
+}
+
+
+.cont input{
+    font-size:15px;
+    margin-bottom: 10px;
+    padding: 10px 15px 10px 300px;
+    width: 50%;
+    text-align: right;
+}
+
+
+.cont i{
+    padding: 10px 10px 15px;
+    color:  #fff;
+    background-color: var(--blueColor);
+    position: absolute;
+}
+
+
+.submit{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.submit button{
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    background-color: #2c7de1;
+    cursor: pointer;
+    margin: 30px 0 0 400px;
+    padding: 10px 50px;
+    
+}
